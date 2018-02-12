@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { CarService } from './car.service';
 import { Car } from './car';
+import { FilterChange } from './filter-change';
 
 @Component({
   selector: 'app-root',
@@ -35,7 +36,7 @@ export class AppComponent {
     this.getCars();
   }
 
-  filterChange(changedFilter: Object) {
+  filterChange(changedFilter: FilterChange) {
     this.filters[changedFilter.inputId].enabled = changedFilter.checked;
     
     if(!changedFilter.checked) {

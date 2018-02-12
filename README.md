@@ -5,7 +5,7 @@ Thanks for reviewing my practical submission!
 I've chose the facet filtering.
 
 Clone the repo and run 'npm install'.
-Assuming you have the angular tools run 'ng serve --open' to launch the development
+Assuming you have the angular tools, run 'ng serve --open' to launch the development
 server to view the app.
 
 There are some issues I'd like to address.

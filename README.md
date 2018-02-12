@@ -1,15 +1,14 @@
 # CarShopper
 
-# Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-# Thanks for reviewing my practical submission!
+Thanks for reviewing my practical submission!
 
 I've chose the facet filtering.
 
-If you clone and run the repo there are a couple obvious
-things missing I'd like to address.
+Clone the repo and run 'npm install'.
+Assuming you have the angular tools run 'ng serve --open' to launch the development
+server to view the app.
+
+There are a couple issues I'd like to address.
 
 1. This was my first Angular project ever. I had to take
 a lot of time and go through the tutorials and read some

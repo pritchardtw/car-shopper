@@ -1,0 +1,12 @@
+<div *ngIf="filters">
+  <div *ngIf="filters.make.enabled">
+    <label>Make: </label><input #make type="text" (input)="onMakeChange(make.value)">
+  </div>
+  <div *ngIf="filters.year.enabled">
+    <label>Min Year: </label><input #min value="70" min="70" max="82" type="number" (input)="onYearMinChange(min.value)">
+    <label>Max Year: </label><input #max value="82" min="70" max="82" type="number" (input)="onYearMaxChange(max.value)">
+  </div>
+  <div *ngIf="filters.mpg.enabled">
+    <label>MPG: </label><input #mpg value = -1 min="-1" max="50" type="range" (change)="onMpgChange(mpg.value)">
+  </div>
+</div>

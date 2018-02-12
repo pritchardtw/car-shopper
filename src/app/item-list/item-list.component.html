@@ -1,0 +1,11 @@
+<div *ngIf="cars">
+  <ul class="cars">
+    <li *ngFor="let car of cars">
+        <div class="car">
+          <p>Make: {{car.name}}</p>
+          <p>Year: {{car.year}}</p>
+          <p>Mpg: {{car.mpg}}</p>
+        </div>
+    </li>
+  </ul>
+</div>

@@ -8,7 +8,7 @@ Clone the repo and run 'npm install'.
 Assuming you have the angular tools run 'ng serve --open' to launch the development
 server to view the app.
 
-There are a couple issues I'd like to address.
+There are some issues I'd like to address.
 
 1. This was my first Angular project ever. I had to take
 a lot of time and go through the tutorials and read some
